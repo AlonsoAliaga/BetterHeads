@@ -1,6 +1,6 @@
 ![Logo](https://i.imgur.com/Gm8W7C2.png)
 
-# BetterWaypoints
+# BetterHeads
 This plugin adds a good looking GUI with a huge amount of heads for players to choose from.\
 The aim of this plugin is to allow players get/buy custom heads easily.
 
