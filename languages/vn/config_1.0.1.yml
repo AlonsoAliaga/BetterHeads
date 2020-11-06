@@ -1,0 +1,152 @@
+#          ___      _   _           _  _             _
+#         | _ ) ___| |_| |_ ___ _ _| || |___ __ _ __| |___
+#         | _ \/ -_)  _|  _/ -_) '_| __ / -_) _` / _` (_-<
+#         |___/\___|\__|\__\___|_| |_||_\___\__,_\__,_/__/
+#                           by AlonsoAliaga
+#          https://www.spigotmc.org/resources/authors/281176/
+#                          Dịch bởi IamShuzan
+Messages:
+  Updating: '&cData đang được update! Xin đợi...'
+  No-permission: '&cBạn không có quyền để làm điều này'
+  Reloaded: '&aMột vài tin nhắn và cài đặt đã được reload. Những thứ khác cần phải restar server'
+  Invalid-player: '&cNgười chơi không trực tuyến'
+  Invalid-head-id: '&cID Không hợp lệ'
+  Invalid-category: '&cDanh mục cung cấp không hợp lệ'
+  Invalid-number: '&cSố không hợp lệ'
+  Not-enough-levels: '&cBạn không có đủ level để mua cái đầu này. Bạn cần
+    &9{COST} level'
+  Not-enough-money: '&cBạn không có đủ tiền để mua cái đầu này. Bạn cần
+    &e{COST}$.'
+  Not-enough-material: '&cBạn không có đủ thứ để mua cái đầu này. Bạn cần
+    {COST} {MATERIAL}.'
+  Purchased-levels: '&eBạn đã mua đầu &b{NAME}&e với {COST} level'
+  Purchased-money: '&eBạn đã mua đầu &b{NAME}&e với &e{COST}$.'
+  Purchased-material: '&eBạn đã mua đầu &b{NAME}&e với {COST} {MATERIAL}.'
+  Help:
+    Admin:
+    - '&4&l /betterheads &r&f- &cMở bảng giao diện'
+    - '&4&l /betterheads get <head-id> &r&f- &cLấy head với ID'
+    - '&4&l /betterheads giverandom <player> <category> <amount> &r&f- &cLấy ngẫu nhiên đầu
+      từ category'
+    - '&4&l /betterheads open <player> &r&f- &cMở bảng giao diện cho người chơi khác'
+    - '&4&l /betterheads build <player> <texture> &r&f- &cXây đầu cho người chơi khác sử dụng
+      texture'
+    - '&4&l /betterheads search <term> (-name) &r&f- &cTìm đầu'
+    - '&4&l /betterheads reload &r&f- &cLàm mới config (Không phải đầu)'
+    User:
+    - '&4&l /betterheads &r&f- &cMở bảng giao diện đầu'
+    - '&4&l /betterheads search <term> (-name) &r&f- &cTìm đầu'
+  Build:
+    Head-name: '&eBetterHead'
+    Success: '&aBạn vừa xây 1 cái đầu cho {TARGET}.'
+    Success-other: '&6Bạn đã nhận được 1 custom head'
+    Success-other-extra: '&aBạn đã nhận được 1 custom head. Nhưng túi đồ của bạn không có chỗ 
+      nên item sẽ rơi dưới mặt đất'
+  Get:
+    Success: '&eBạn đã nhận đầu &b{HEAD}'
+  Cooldown:
+    Please-wait: '&cBạn đang lấy đầu quá nhanh! Hãy đợi {TIME} để lấy thêm'
+  Give-random:
+    Sent-random: '&aBạn gửi {AMOUNT} đầu ngẫu nhiên cho {PLAYER}.'
+    Received-random: '&aBạn đã nhận {AMOUNT} đầu ngẫu nhiên'
+    Received-random-extra: '&aBạn đã nhận {AMOUNT} đầu ngẫu nhiên. Tuy nhiên túi đồ đã đầy
+      nên nó sẽ drop dưới chân bạn'
+  Search:
+    Title: '&8Đang tìm kết quả ({PAGE}/{MAX})'
+    No-permission: '&cBạn không có quyền để truy cập chức năng tìm kiếm. Hãy mua rank &a[RANK]'
+    Word-required: '&cBạn phải nhập ít nhất 1 từ'
+    Invalid-length: '&cBạn phải nhập ít nhất 1 từ {LENGTH}'
+    No-results: '&cKhông thể tìm thấy đầu với những từ này :('
+    Cooldown-please-wait: '&cBạn đang tìm đầu quá nhanh! Hãy đợi {TIME}
+      để tìm lại lần nữa'
+  Gui:
+    Items:
+      Jump:
+        Material: PAPER
+        Texture: ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0=
+        Displayname: '&aTrang {PAGE}'
+Permissions:
+  Admin: betterheads.admin
+  Free: betterheads.free
+  Cooldown-bypass: betterheads.cooldownbypass
+  Heads: none
+  Search: betterheads.search
+  Search-bypass-length: betterheads.search.bypass
+  Search-bypass-cooldown: betterheads.search.cooldownbypass
+Options:
+  Aliases:
+  - bheads
+  - bhead
+  - bettehead
+  Check-new-heads:
+    On-start: true
+    Interval: 1
+  Search:
+    Minimum-length: 3
+    Cooldown-on-creative: true
+    Time: 10
+  Gui:
+    Main-title: '&8Đầu có sẵn'
+    Category-title: '&8Thể loại: {CATEGORY} ({PAGE}/{MAX})'
+    Hide-locked: true
+    Fill-with-frame: true
+    Items:
+      Previous:
+        Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdhZWU5YTc1YmYwZGY3ODk3MTgzMDE1Y2NhMGIyYTdkNzU1YzYzMzg4ZmYwMTc1MmQ1ZjQ0MTlmYzY0NSJ9fX0=
+        Displayname: '&9Trang Trước'
+        Lore:
+        - '&7Quay lại trang trước'
+      Next:
+        Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjgyYWQxYjljYjRkZDIxMjU5YzBkNzVhYTMxNWZmMzg5YzNjZWY3NTJiZTM5NDkzMzgxNjRiYWM4NGE5NmUifX19
+        Displayname: '&9Trang Sau'
+        Lore:
+        - '&7Di chuyển đến trang tiếp'
+      Unknown:
+        Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDZiYTYzMzQ0ZjQ5ZGQxYzRmNTQ4OGU5MjZiZjNkOWUyYjI5OTE2YTZjNTBkNjEwYmI0MGE1MjczZGM4YzgyIn19fQ==
+        Displayname: '&4&lUnknown category'
+        Lore:
+        - '&7Bạn chưa mở khóa'
+        - '&7thể loại này'
+      Close:
+        Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+        Displayname: '&4&lĐóng'
+        Lore:
+        - '&7Đóng bảng giao diện'
+      Back:
+        Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+        Displayname: '&4&lQuay lại'
+        Lore:
+        - '&7Quay lại bảng giao diện'
+      Category:
+        Displayname: '&b&l{CATEGORY}'
+        Lore:
+        - '&7{AMOUNT} cái đầu'
+      Jump:
+        Material: PAPER
+        Texture: ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0=
+        Displayname: '&aTrang {PAGE}'
+  Head:
+    Displayname: '&e{NAME}'
+    Displayname-id: '&e{NAME}&r &8{ID}'
+    Lore-vault:
+    - '&7Giá: &a{PRICE}$'
+    Lore-levels:
+    - '&7Giá: &9{PRICE} level'
+    Lore-material:
+    - '&7Giá: &a{PRICE} {MATERIAL}'
+  Head-cost:
+    Enabled: true
+    Cost-on-creative: false
+    Type: LEVEL
+    Material: DIAMOND
+    Cost: 1
+  Cooldown:
+    Cooldown-on-creative: false
+    Time: 5
+Updates:
+  Auto-update-configuration: true
+  Check-updates: true
+  Notify-updates: true
+  Permission: betterheads.update
+  Message: '&3[BetterHeads] &eMột bản cập nhật mới đã được tìm thấy! Bạn đang sử dụng bản {CURRENT}.
+    Tải phiên bản mới {NEW} ở đây &c{LINK}'
